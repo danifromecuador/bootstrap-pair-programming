@@ -8,10 +8,17 @@
   background-image: url(images/backgrounds/desktop-header-llustration.svg);
 }
 
-@include media-breakpoint-up(sm) {
+@media (min-width:375px) {
   .header {
     /* display: block; */
-    background-color: red;
+    background-image: url(./images/backgrounds/header-illsutration-mobile.svg);
 
+  }
+}
+
+@media (width > 769px){
+  .header {
+    background-image: url(./images/backgrounds/desktop-header-llustration.svg);
+    background-repeat: no-repeat;
   }
 }
