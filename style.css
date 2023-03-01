@@ -1,0 +1,24 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(images/backgrounds/desktop-header-llustration.svg);
+}
+
+@media (min-width:375px) {
+  .header {
+    /* display: block; */
+    background-image: url(./images/backgrounds/header-illsutration-mobile.svg);
+
+  }
+}
+
+@media (width > 769px){
+  .header {
+    background-image: url(./images/backgrounds/desktop-header-llustration.svg);
+    background-repeat: no-repeat;
+  }
+}
