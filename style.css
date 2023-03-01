@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  background-image: url(images/backgrounds/desktop-header-llustration.svg);
+}
+
+@include media-breakpoint-up(sm) {
+  .header {
+    /* display: block; */
+    background-color: red;
+
+  }
+}
